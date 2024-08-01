@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, sans-serif;
+    color:azure ;
+    background: linear-gradient(to left,#141852, #483475 )
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    background-color: #d8afaf;
+}
+
+.logo-icon{
+    border: 1 px solid;
+    background-image: url(https://picsum.photos/200);
+    height: 25px;
+    width: 50px;
+    background-size: cover;
+}
+
+.nav-container{
+    display: flex;
+    width: 100%;
+}
+
+.nav-item{
+    
+    padding: 8px;
+}
+
+.main-title{
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content.item{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-banner-content{
+    width: 100%;
+    height: 150px;
+}
+.main-content-banner{
+    
+    width: 100%;
+    height: 150px;
+    background-image: url(https://picsum.photos/150);
+}
+
+.banner-1 {
+    background-image: url(https://picsum.photos/155);
+}
+
+.banner-2 {
+    background-image: url(https://picsum.photos/156);
+}
+
+.banner-3 {
+    background-image: url(https://picsum.photos/157);
+}
+.item-icon{
+    height: 25px;
+    width: 25px;
+    border: 1 px solid;
+    background-image: url(https://picsum.photos/50) ;
+    border-radius: 50%;
+}
+
+.main-item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace ;
+}
+
+button{
+    width: 75%;
+    height: 32px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .feature {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .feature-text {
+    flex: 1;
+  }
+
+@media only screen and (max-width : 480px){
+    .main content{
+    flex-direction: column;}
+}
